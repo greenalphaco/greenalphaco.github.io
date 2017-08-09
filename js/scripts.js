@@ -48,22 +48,13 @@ var contextpropertiesaccordionnone = {
 	styleriverbluffapts: "accordionlink",
 	styleautumnwoodsapts: "accordionlink",
 	stylewalnutstapts: "accordionlink",
-	stylecountryclubapts: "accordionlink",
-	styletowneterraceapts: "accordionlink",
-	stylemulberryapts: "accordionlink",
-	styleraintreeinn: "accordionlink",
-	stylewongsfamilyrestautant: "accordionlink",
+	stylewongsfamilyrestaurant: "accordionlink",
 	stylejohnnywongschinesebistro: "accordionlink",
 	stylesinglefamilyhomes: "accordionlink",
 	styleprofessionalvillageeastofficecomplex: "accordionlink",
-	stylesherwoodmobilehomepark: "accordionlink",
-	stylebourneendmobilehomepark: "accordionlink",
 
 	contentstateapartments: "content",
 	titlestateapartments: "title",
-
-	contentstatehotel: "content",
-	titlestatehotel: "title",
 
 	contentstaterestaurants: "content",
 	titlestaterestaurants: "title",
@@ -73,31 +64,19 @@ var contextpropertiesaccordionnone = {
 
 	contentstateofficecomplexes: "content",
 	titlestateofficecomplexes: "title",
-
-	contentstatemobilehomeparks: "content",
-	titlestatemobilehomeparks: "title",
 } 
 var contextpropertiesaccordioneastwoodapts = {
 	styleeastwoodapts: "accordionlinkactive",
 	styleriverbluffapts: "accordionlink",
 	styleautumnwoodsapts: "accordionlink",
 	stylewalnutstapts: "accordionlink",
-	stylecountryclubapts: "accordionlink",
-	styletowneterraceapts: "accordionlink",
-	stylemulberryapts: "accordionlink",
-	styleraintreeinn: "accordionlink",
-	stylewongsfamilyrestautant: "accordionlink",
+	stylewongsfamilyrestaurant: "accordionlink",
 	stylejohnnywongschinesebistro: "accordionlink",
 	stylesinglefamilyhomes: "accordionlink",
 	styleprofessionalvillageeastofficecomplex: "accordionlink",
-	stylesherwoodmobilehomepark: "accordionlink",
-	stylebourneendmobilehomepark: "accordionlink",
 
 	contentstateapartments: "content active",
 	titlestateapartments: "title active",
-
-	contentstatehotel: "content",
-	titlestatehotel: "title",
 
 	contentstaterestaurants: "content",
 	titlestaterestaurants: "title",
@@ -107,31 +86,19 @@ var contextpropertiesaccordioneastwoodapts = {
 
 	contentstateofficecomplexes: "content",
 	titlestateofficecomplexes: "title",
-
-	contentstatemobilehomeparks: "content",
-	titlestatemobilehomeparks: "title",
 } 
 var contextpropertiesaccordionriverbluffapts = {
 	styleeastwoodapts: "accordionlink",
 	styleriverbluffapts: "accordionlinkactive",
 	styleautumnwoodsapts: "accordionlink",
 	stylewalnutstapts: "accordionlink",
-	stylecountryclubapts: "accordionlink",
-	styletowneterraceapts: "accordionlink",
-	stylemulberryapts: "accordionlink",
-	styleraintreeinn: "accordionlink",
-	stylewongsfamilyrestautant: "accordionlink",
+	stylewongsfamilyrestaurant: "accordionlink",
 	stylejohnnywongschinesebistro: "accordionlink",
 	stylesinglefamilyhomes: "accordionlink",
 	styleprofessionalvillageeastofficecomplex: "accordionlink",
-	stylesherwoodmobilehomepark: "accordionlink",
-	stylebourneendmobilehomepark: "accordionlink",
 
 	contentstateapartments: "content active",
 	titlestateapartments: "title active",
-
-	contentstatehotel: "content",
-	titlestatehotel: "title",
 
 	contentstaterestaurants: "content",
 	titlestaterestaurants: "title",
@@ -141,31 +108,19 @@ var contextpropertiesaccordionriverbluffapts = {
 
 	contentstateofficecomplexes: "content",
 	titlestateofficecomplexes: "title",
-
-	contentstatemobilehomeparks: "content",
-	titlestatemobilehomeparks: "title",
 } 
 var contextpropertiesaccordionwalnutstapts = {
 	styleeastwoodapts: "accordionlink",
 	styleriverbluffapts: "accordionlink",
 	styleautumnwoodsapts: "accordionlink",
 	stylewalnutstapts: "accordionlinkactive",
-	stylecountryclubapts: "accordionlink",
-	styletowneterraceapts: "accordionlink",
-	stylemulberryapts: "accordionlink",
-	styleraintreeinn: "accordionlink",
-	stylewongsfamilyrestautant: "accordionlink",
+	stylewongsfamilyrestaurant: "accordionlink",
 	stylejohnnywongschinesebistro: "accordionlink",
 	stylesinglefamilyhomes: "accordionlink",
 	styleprofessionalvillageeastofficecomplex: "accordionlink",
-	stylesherwoodmobilehomepark: "accordionlink",
-	stylebourneendmobilehomepark: "accordionlink",
 
 	contentstateapartments: "content active",
 	titlestateapartments: "title active",
-
-	contentstatehotel: "content",
-	titlestatehotel: "title",
 
 	contentstaterestaurants: "content",
 	titlestaterestaurants: "title",
@@ -175,9 +130,6 @@ var contextpropertiesaccordionwalnutstapts = {
 
 	contentstateofficecomplexes: "content",
 	titlestateofficecomplexes: "title",
-
-	contentstatemobilehomeparks: "content",
-	titlestatemobilehomeparks: "title",
 } 
 
 // -------------
@@ -201,3 +153,163 @@ $(function() {
 $(function() {
   $("#propertiesaccordionwalnutstapts").html(resultpropertiesaccordionwalnutstapts);
 });
+
+
+// var contextpropertiesaccordionnone = {
+// 	styleeastwoodapts: "accordionlink",
+// 	styleriverbluffapts: "accordionlink",
+// 	styleautumnwoodsapts: "accordionlink",
+// 	stylewalnutstapts: "accordionlink",
+// 	stylecountryclubapts: "accordionlink",
+// 	styletowneterraceapts: "accordionlink",
+// 	stylemulberryapts: "accordionlink",
+// 	styleraintreeinn: "accordionlink",
+// 	stylewongsfamilyrestautant: "accordionlink",
+// 	stylejohnnywongschinesebistro: "accordionlink",
+// 	stylesinglefamilyhomes: "accordionlink",
+// 	styleprofessionalvillageeastofficecomplex: "accordionlink",
+// 	stylesherwoodmobilehomepark: "accordionlink",
+// 	stylebourneendmobilehomepark: "accordionlink",
+
+// 	contentstateapartments: "content",
+// 	titlestateapartments: "title",
+
+// 	contentstatehotel: "content",
+// 	titlestatehotel: "title",
+
+// 	contentstaterestaurants: "content",
+// 	titlestaterestaurants: "title",
+
+// 	contentstatesinglefamilyhomes: "content",
+// 	titlestatesinglefamilyhomes: "title",
+
+// 	contentstateofficecomplexes: "content",
+// 	titlestateofficecomplexes: "title",
+
+// 	contentstatemobilehomeparks: "content",
+// 	titlestatemobilehomeparks: "title",
+// } 
+// var contextpropertiesaccordioneastwoodapts = {
+// 	styleeastwoodapts: "accordionlinkactive",
+// 	styleriverbluffapts: "accordionlink",
+// 	styleautumnwoodsapts: "accordionlink",
+// 	stylewalnutstapts: "accordionlink",
+// 	stylecountryclubapts: "accordionlink",
+// 	styletowneterraceapts: "accordionlink",
+// 	stylemulberryapts: "accordionlink",
+// 	styleraintreeinn: "accordionlink",
+// 	stylewongsfamilyrestautant: "accordionlink",
+// 	stylejohnnywongschinesebistro: "accordionlink",
+// 	stylesinglefamilyhomes: "accordionlink",
+// 	styleprofessionalvillageeastofficecomplex: "accordionlink",
+// 	stylesherwoodmobilehomepark: "accordionlink",
+// 	stylebourneendmobilehomepark: "accordionlink",
+
+// 	contentstateapartments: "content active",
+// 	titlestateapartments: "title active",
+
+// 	contentstatehotel: "content",
+// 	titlestatehotel: "title",
+
+// 	contentstaterestaurants: "content",
+// 	titlestaterestaurants: "title",
+
+// 	contentstatesinglefamilyhomes: "content",
+// 	titlestatesinglefamilyhomes: "title",
+
+// 	contentstateofficecomplexes: "content",
+// 	titlestateofficecomplexes: "title",
+
+// 	contentstatemobilehomeparks: "content",
+// 	titlestatemobilehomeparks: "title",
+// } 
+// var contextpropertiesaccordionriverbluffapts = {
+// 	styleeastwoodapts: "accordionlink",
+// 	styleriverbluffapts: "accordionlinkactive",
+// 	styleautumnwoodsapts: "accordionlink",
+// 	stylewalnutstapts: "accordionlink",
+// 	stylecountryclubapts: "accordionlink",
+// 	styletowneterraceapts: "accordionlink",
+// 	stylemulberryapts: "accordionlink",
+// 	styleraintreeinn: "accordionlink",
+// 	stylewongsfamilyrestautant: "accordionlink",
+// 	stylejohnnywongschinesebistro: "accordionlink",
+// 	stylesinglefamilyhomes: "accordionlink",
+// 	styleprofessionalvillageeastofficecomplex: "accordionlink",
+// 	stylesherwoodmobilehomepark: "accordionlink",
+// 	stylebourneendmobilehomepark: "accordionlink",
+
+// 	contentstateapartments: "content active",
+// 	titlestateapartments: "title active",
+
+// 	contentstatehotel: "content",
+// 	titlestatehotel: "title",
+
+// 	contentstaterestaurants: "content",
+// 	titlestaterestaurants: "title",
+
+// 	contentstatesinglefamilyhomes: "content",
+// 	titlestatesinglefamilyhomes: "title",
+
+// 	contentstateofficecomplexes: "content",
+// 	titlestateofficecomplexes: "title",
+
+// 	contentstatemobilehomeparks: "content",
+// 	titlestatemobilehomeparks: "title",
+// } 
+// var contextpropertiesaccordionwalnutstapts = {
+// 	styleeastwoodapts: "accordionlink",
+// 	styleriverbluffapts: "accordionlink",
+// 	styleautumnwoodsapts: "accordionlink",
+// 	stylewalnutstapts: "accordionlinkactive",
+// 	stylecountryclubapts: "accordionlink",
+// 	styletowneterraceapts: "accordionlink",
+// 	stylemulberryapts: "accordionlink",
+// 	styleraintreeinn: "accordionlink",
+// 	stylewongsfamilyrestautant: "accordionlink",
+// 	stylejohnnywongschinesebistro: "accordionlink",
+// 	stylesinglefamilyhomes: "accordionlink",
+// 	styleprofessionalvillageeastofficecomplex: "accordionlink",
+// 	stylesherwoodmobilehomepark: "accordionlink",
+// 	stylebourneendmobilehomepark: "accordionlink",
+
+// 	contentstateapartments: "content active",
+// 	titlestateapartments: "title active",
+
+// 	contentstatehotel: "content",
+// 	titlestatehotel: "title",
+
+// 	contentstaterestaurants: "content",
+// 	titlestaterestaurants: "title",
+
+// 	contentstatesinglefamilyhomes: "content",
+// 	titlestatesinglefamilyhomes: "title",
+
+// 	contentstateofficecomplexes: "content",
+// 	titlestateofficecomplexes: "title",
+
+// 	contentstatemobilehomeparks: "content",
+// 	titlestatemobilehomeparks: "title",
+// } 
+
+// // -------------
+
+// var resultpropertiesaccordioneastwoodapts = Handlebars.templates.propertiesaccordion(contextpropertiesaccordioneastwoodapts);
+// var resultpropertiesaccordionnone = Handlebars.templates.propertiesaccordion(contextpropertiesaccordionnone);
+// var resultpropertiesaccordionriverbluffapts = Handlebars.templates.propertiesaccordion(contextpropertiesaccordionriverbluffapts);
+// var resultpropertiesaccordionwalnutstapts = Handlebars.templates.propertiesaccordion(contextpropertiesaccordionwalnutstapts);
+
+// // -------------
+
+// $(function() {
+//   $("#propertiesaccordioneastwoodapts").html(resultpropertiesaccordioneastwoodapts);
+// });
+// $(function() {
+//   $("#propertiesaccordionnone").html(resultpropertiesaccordionnone);
+// });
+// $(function() {
+//   $("#propertiesaccordionriverbluffapts").html(resultpropertiesaccordionriverbluffapts);
+// });
+// $(function() {
+//   $("#propertiesaccordionwalnutstapts").html(resultpropertiesaccordionwalnutstapts);
+// });
