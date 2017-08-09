@@ -1,3 +1,6 @@
+// var contextfooter = {test: "hello"} 
+var contextfooter = {description: "Lorum ipsum shit i dont wanna write right nowLorum ipsum shit i dont wanna write right now Lorum ipsum shit i dont wanna write right no."} 
+
 var contextnavigationhome = {itemoptionhome: "active item", itemoptionproperties: "item",  itemoptionabout: "item", itemoptioncontact: "item", colorhome: "grey", colorproperties: "black", colorabout: "black", colorcontact: "black"}
 var contextnavigationproperties = {itemoptionhome: "item", itemoptionproperties: "active item", itemoptionabout: "item", itemoptioncontact: "item", colorhome: "black", colorproperties: "grey", colorabout: "black", colorcontact: "black"} 
 var contextnavigationabout = {itemoptionhome: "item", itemoptionproperties: "item", itemoptionabout: "active item", itemoptioncontact: "item", colorhome: "black", colorproperties: "black", colorabout: "grey", colorcontact: "black"} 
@@ -75,6 +78,8 @@ var contextpropertiesaccordioneastwoodapts = {
 
 // -------------
 
+var resultfooter = Handlebars.templates.footer(contextfooter);
+
 var resultnavigationhome = Handlebars.templates.navigation(contextnavigationhome);
 var resultnavigationproperties = Handlebars.templates.navigation(contextnavigationproperties);
 var resultnavigationabout = Handlebars.templates.navigation(contextnavigationabout);
@@ -84,6 +89,10 @@ var resultpropertiesaccordioneastwoodapts = Handlebars.templates.propertiesaccor
 var resultpropertiesaccordionnone = Handlebars.templates.propertiesaccordion(contextpropertiesaccordionnone);
 
 // -------------
+
+$(function() {
+  $("#footer").html(resultfooter);
+});
 
 
 $(function() {

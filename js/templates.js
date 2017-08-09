@@ -1,5 +1,12 @@
 (function() {
   var template = Handlebars.template, templates = Handlebars.templates = Handlebars.templates || {};
+templates['footer'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    var helper;
+
+  return "<div class=\"ui container\">\n  <div class=\"ui three column stackable centered grid\">\n    <div class=\"three wide column left aligned\">\n      <h4><a href=\"index.html\">Home</a></h4>\n      <h4><a href=\"index.html\">Properties</a></h4>\n      <h4><a href=\"index.html\">About</a></h4>\n    </div>\n    <div class=\"six wide column left aligned\">\n      <h4>Our Company</h4>\n      <p class=\"lighten\">"
+    + container.escapeExpression(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"description","hash":{},"data":data}) : helper)))
+    + "</p>\n      <p class=\"description lighten\">&copy; <span id=\"year\"></span> All Rights Reserved</p>\n    </div>\n    <div class=\"four wide column left aligned\"> \n      <h4>Call for property details and listings.</h4>\n      <a href=\"contact.html\"><button class=\"ui button green\">Contact</button></a>\n    </div>\n  </div>\n</div>\n\n<script type=\"text/javascript\">\n    $('#year')[0].innerText = (new Date()).getFullYear()\n</script>";
+},"useData":true});
 templates['navigation'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
@@ -11,7 +18,7 @@ templates['navigation'] = template({"compiler":[7,">= 4.0.0"],"main":function(co
     + alias4(((helper = (helper = helpers.itemoptionabout || (depth0 != null ? depth0.itemoptionabout : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionabout","hash":{},"data":data}) : helper)))
     + "\">About</a>\n        <a href=\"contact.html\" class=\""
     + alias4(((helper = (helper = helpers.itemoptioncontact || (depth0 != null ? depth0.itemoptioncontact : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptioncontact","hash":{},"data":data}) : helper)))
-    + " right aligned\">Contact</a>\n      </div>\n    </div>\n  </div>\n</div>\n\n<div class=\"ui left vertical sidebar labeled icon menu\">\n  <a href=\"index.html\" class=\""
+    + " right aligned\"><button class=\"ui button green\">Contact</button></a>\n      </div>\n    </div>\n  </div>\n</div>\n\n<div class=\"ui left vertical sidebar labeled icon menu\">\n  <a href=\"index.html\" class=\""
     + alias4(((helper = (helper = helpers.itemoptionhome || (depth0 != null ? depth0.itemoptionhome : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionhome","hash":{},"data":data}) : helper)))
     + "\">\n    <i class=\""
     + alias4(((helper = (helper = helpers.colorhome || (depth0 != null ? depth0.colorhome : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"colorhome","hash":{},"data":data}) : helper)))

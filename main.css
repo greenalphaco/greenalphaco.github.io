@@ -6,21 +6,25 @@ body, html {
   background-color: white;
   overflow-x: hidden;
   color: rgba(0,0,0,.85);
-  font-family: 'Karla', Helvetica, Arial, sans-serif;
 }
 
-h1 {
-  font-family: 'Oswald', 'Karla', Helvetica, Arial, sans-serif;
+/*h1 {
+  font-family: 'Karla', Helvetica, Arial, sans-serif !important;
   font-size: 3.5em;
 }
 h2 {
-  font-family: 'Oswald', 'Karla', Helvetica, Arial, sans-serif;
+  font-family: 'Karla', Helvetica, Arial, sans-serif !important;
   font-size: 2.5em;
 }
 h3 {
-  font-family: 'Oswald', 'Karla', Helvetica, Arial, sans-serif;
+  font-family: 'Karla', Helvetica, Arial, sans-serif !important;
   font-size: 1.5em;
 }
+h3 {
+  font-family: 'Karla', Helvetica, Arial, sans-serif !important;
+  font-size: 1.5em;
+  font-weight: 400;
+}*/
 hr {
   width: 100%;
 }
@@ -29,6 +33,12 @@ hr {
   color: #6d874d;
 }
 
+
+.navlogo {
+  height: auto;
+  width: auto;
+  padding-right: 15px;
+}
 
 /*index.html introduction start*/
 #intro {
@@ -61,6 +71,7 @@ hr {
   #intro .ui.fluid.container {
     margin: 0 !important;
   }
+
 }
 /*index.html introduction end*/
 
@@ -69,23 +80,21 @@ hr {
 #properties {
   height: 100%;
   width: 100%;
+  background-color: #edeae8;
 }
 #properties .ui.fluid.container.properties {
-  height: 30vh;
+  height: auto;
   width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 #properties .ui.fluid.container h1.bigtitle {
-  margin: auto;
-  margin-top: 1.5em;
-  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 10vh; 
   font-size: 3.5em;
-}
-#properties .ui.fluid.container h3.bigtitle {
-  margin: 1em auto;
-  position: relative;
-  font-size: 1.5em;
-  font-weight: normal;
-  max-width: 400px;
 }
 #properties .bg {
   background-image: url("img/landingpagebg.jpg");
@@ -126,10 +135,49 @@ hr {
 #propertiescontent p.propertiescontentdescription {
   margin-bottom: 2em;
 /*  max-width: 500px;*/
-  text-align: left;
+/*  text-align: justify;*/
 }
 #propertiescontent img.propertiescontentimage {
   width: 100%;
+}
+
+
+
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+}
+.breadcrumb a.section {
+  color: rgba(0,0,0,.4) !important;
+}
+.breadcrumb a.section:hover {
+  color: rgba(0,0,0,.85) !important;
+}
+
+
+
+
+#about .ui.fluid.container {
+  height: auto;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#about .ui.fluid.container h1.bigtitle {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 10vh; 
+  font-size: 3.5em;
+}
+#aboutcontent .ui.container p {
+  text-align: center;
+}
+#aboutcontent img.map {
+  height: auto;
+  width: auto;
+  max-height: 600px;
 }
 
 /*hacked disable mode for items start*/
@@ -143,7 +191,32 @@ hr {
 }
 /*hacked disable mode for items end*/
 
-
+/*footer begin*/
+#footer {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  background-color: rgba(0,0,0,.85);
+}
+#footer a, #footer p, #footer h4 {
+  color: white;
+}
+#footer a:hover,#footer a:focus  {
+  color: rgba(255,255,255,.75);
+}
+#footer h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+#footer p.lighten {
+  color: rgba(255,255,255,.5);
+}
+#footer p {
+  max-width: 275px;
+  font-size: .9em;
+}
+/*footer ends*/
 
 
 

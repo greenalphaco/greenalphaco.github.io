@@ -175,8 +175,8 @@
 <div id="navigationproperties"></div>
 
 <section id="properties">
-  <div class="ui fluid container properties bg">
-    <h1 class="ui center aligned header inverted bigtitle">Eastwood Apartments</h1>
+  <div class="ui fluid container properties">
+    <h1 class="ui header bigtitle">Eastwood Apartments</h1>
   </div>
 </section>
 
@@ -196,22 +196,31 @@
     <!-- begin content here -->
     <div class="thirteen wide column">
       <!-- begin property description here -->
+      <div class="ui breadcrumb">
+        <a class="section" href="index.html">Home</a>
+        <div class="divider"> / </div>
+        <a class="section" href="properties.html">Properties</a>
+        <div class="divider"> / </div>
+        <div class="active section">Eastwood Apartments</div>
+      </div>
       <div class="ui two column doubling stackable grid">
-        <div class="six wide column">
-          <h3>Details</h3>
-            <div class="ui list">
-              <div class="item">Water, Sewage, and Trash Utilities are included.</div>
-              <div class="item">Onsite Coin Operated Laundry Facilities</div>
-              <div class="item"><a href="contact.html#eastwoodapts"><button class="ui button green">Contact for More Details</button></a></div>
-            </div>
-        </div>
         <div class="ten wide column">
           <h3>Description</h3>
           <p class="propertiescontentdescription">Nested within a grove of woods, Eastwood Apartments features recently rennovated interiors and privacy. Each unit features a full kitchen, including a sink, garbage disposal, dishwasher, stovetop oven, microwave, and refrigerator. The community is located near major roads and highways, providing convenient access to schools, stores, and food. </p>
         </div>
+        <div class="six wide column">
+          <h3>Details</h3>
+            <div class="ui list">
+              <div class="item">Water, Sewage, and Trash Utilities are included with rent</div>
+              <div class="item">Full kitchen</div>
+              <div class="item">Onsite coin-operated laundry facilities</div>
+              <div class="item">Pets welcome with pet fee</div>
+              <div class="item"><a href="contact.html#eastwoodapts"><button class="ui button green">More Details</button></a></div>
+            </div>
+        </div>
       </div>
       <!-- begin property images here -->
-      <div class="ui stackable doubling three column grid">
+      <div class="ui doubling three column grid">
         <div class="column propertiescontentimagecolumn">
           <img class="propertiescontentimage" src="img/eastwood/eastwood1.jpg">
         </div>
@@ -238,13 +247,15 @@
       <hr>
       <!-- begin available units here -->
       <h3>Available Units</h3>
+      <p class="description">Contact our offices for more availability details or to set up a showing.</p>
+      <a href="contact.html#eastwoodapts"><button class="ui button green">Contact</button></a>
       <div class="ui relaxed items">
-        <div class="item">
+        <div class="disabled item">
           <div class="ui small image">
             <img src="img/eastwood/eastwood1.jpg">
           </div>
           <div class="content">
-            <a class="header">Studio</a>
+            <h3 class="header">Studio / 1 Bath (Second Floor)</h3>
             <div class="description">
               A description which may flow for several lines and give context to the content.
             </div>
@@ -255,7 +266,7 @@
             <img src="img/eastwood/eastwood1.jpg">
           </div>
           <div class="content">
-            <a class="header">One Bedroom</a>
+            <h3 class="header">1 Bedroom / 1 Bath (Ground Floor)</h3>
             <div class="description">
               A description which may flow for several lines and give context to the content.
             </div>
@@ -266,7 +277,18 @@
             <img src="img/eastwood/eastwood1.jpg">
           </div>
           <div class="content">
-            <a class="header">Two Bedrooms</a>
+            <h3 class="header">2 Bedrooms / 1 Bath (Ground Floor)</h3>
+            <div class="description">
+              A description which may flow for several lines and give context to the content.
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="ui small image">
+            <img src="img/eastwood/eastwood1.jpg">
+          </div>
+          <div class="content">
+            <h3 class="header">2 Bedrooms / 1 Bath (Second Floor)</h3>
             <div class="description">
               A description which may flow for several lines and give context to the content.
             </div>
@@ -277,7 +299,7 @@
             <img src="img/eastwood/eastwood1.jpg">
           </div>
           <div class="content">
-            <a class="header">Three Bedrooms</a>
+            <h3 class="header">3 Bedrooms / 1 Bath (Ground Floor)</h3>
             <div class="description">
               A description which may flow for several lines and give context to the content.
             </div>
@@ -288,7 +310,18 @@
             <img src="img/eastwood/eastwood1.jpg">
           </div>
           <div class="content">
-            <a class="header">Four Bedrooms</a>
+            <h3 class="header">3 Bedrooms / 1 Bath (Second Floor)</h3>
+            <div class="description">
+              A description which may flow for several lines and give context to the content.
+            </div>
+          </div>
+        </div>
+        <div class="disabled item">
+          <div class="ui small image">
+            <img src="img/eastwood/eastwood1.jpg">
+          </div>
+          <div class="content">
+            <h3 class="header">Four Bedrooms / 1.5 Bath (Second Floor)</h3>
             <div class="description">
               A description which may flow for several lines and give context to the content.
             </div>
@@ -302,11 +335,8 @@
 
 
 
-<!-- <footer class="footer">
-  <div>
-    <p>&copy; <script>document.write(new Date().getFullYear())</script></p>
-  </div>
-</footer> -->
+<footer id="footer">
+</footer>
 
 <script>
   $(document)
