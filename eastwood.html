@@ -11,7 +11,6 @@
   <title>GreenAlpha | Home</title>
 
 
-
   <link rel="stylesheet" type="text/css" href="main.css">
 
 
@@ -163,7 +162,7 @@
   <style>
     /* preload */
     :body:before {
-      content: (#navigationproperties);
+      content: (#navigationproperties), content: (#propertiesaccordioneastwoodapts);
     }
   </style>
 
@@ -171,105 +170,128 @@
 
 
 
-
 <body>
 
-<div id="navigationhome"></div>
+<div id="navigationproperties"></div>
 
-<section id="intro">
-  <div class="ui fluid container bg">
-    <h1 class="ui center aligned header inverted bigtitle">GreenAlpha</h1>
-    <h3 class="ui center aligned header inverted bigtitle">We are dedicated individuals committed to finding you your next home.</h3>
+<section id="properties">
+  <div class="ui fluid container properties bg">
+    <h1 class="ui center aligned header inverted bigtitle">Eastwood Apartments</h1>
   </div>
 </section>
 
-
-<section id="properties overview">
-  <div class="ui container">
-    <h3 class="ui center aligned header">Properties</h3>
-    <div class="ui three column doubling stackable grid">
-      <div class="column">
-        <div class="ui segment">Content</div>
+<div id="propertiescontent" class="container">
+  <div class="ui two column doubling stackable grid">
+    <div class="three wide column">
+      <div class="ui fluid container mobile only grid" style=" margin-top: 10px; margin-bottom: 10px;">
+        <hr>
       </div>
-      <div class="column">
-        <div class="ui segment">Content</div>
+      <div id="propertiesaccordioneastwoodapts">
       </div>
-      <div class="column">
-        <div class="ui segment">Content</div>
-      </div>
-      <div class="column">
-        <div class="ui segment">Content</div>
-      </div>
-      <div class="column">
-        <div class="ui segment">Content</div>
-      </div>
-      <div class="column">
-        <div class="ui segment">Content</div>
+      <div class="ui fluid container mobile only grid" style=" margin-top: 10px; margin-bottom: 10px;">
+        <hr>
       </div>
     </div>
-  </div>
-</section>
 
-<h3 class="ui center aligned header">Responsive Item</h3>
-<div class="ui container">
-  <div class="ui relaxed divided items">
-    <div class="item">
-      <div class="ui small image">
-        <img src="assets/images/wireframe/image.png">
-      </div>
-      <div class="content">
-        <a class="header">Content Header</a>
-        <div class="meta">
-          <a>Date</a>
-          <a>Category</a>
+    <!-- begin content here -->
+    <div class="thirteen wide column">
+      <!-- begin property description here -->
+      <div class="ui two column doubling stackable grid">
+        <div class="six wide column">
+          <h3>Details</h3>
+            <div class="ui list">
+              <div class="item">Water, Sewage, and Trash Utilities are included.</div>
+              <div class="item">Onsite Coin Operated Laundry Facilities</div>
+              <div class="item"><a href="contact.html#eastwoodapts"><button class="ui button green">Contact for More Details</button></a></div>
+            </div>
         </div>
-        <div class="description">
-          A description which may flow for several lines and give context to the content.
-        </div>
-        <div class="extra">
-          <img src="assets/images/wireframe/square-image.png" class="ui circular avatar image"> Username
+        <div class="ten wide column">
+          <h3>Description</h3>
+          <p class="propertiescontentdescription">Nested within a grove of woods, Eastwood Apartments features recently rennovated interiors and privacy. Each unit features a full kitchen, including a sink, garbage disposal, dishwasher, stovetop oven, microwave, and refrigerator. The community is located near major roads and highways, providing convenient access to schools, stores, and food. </p>
         </div>
       </div>
-    </div>
-    <div class="item">
-      <div class="ui small image">
-        <img src="assets/images/wireframe/image.png">
+      <!-- begin property images here -->
+      <div class="ui stackable doubling three column grid">
+        <div class="column propertiescontentimagecolumn">
+          <img class="propertiescontentimage" src="img/eastwood/eastwood1.jpg">
+        </div>
+        <div class="column propertiescontentimagecolumn">
+          <img class="propertiescontentimage" src="img/eastwood/eastwood2.jpg">
+        </div>
+        <div class="column propertiescontentimagecolumn">
+          <img class="propertiescontentimage" src="img/eastwood/eastwood3.jpg">
+        </div>
+        <div class="column propertiescontentimagecolumn">
+          <img class="propertiescontentimage" src="img/eastwood/eastwood4.jpg">
+        </div>
+        <div class="column propertiescontentimagecolumn">
+          <img class="propertiescontentimage" src="img/eastwood/eastwood5.jpg">
+        </div>
+        <div class="column propertiescontentimagecolumn">
+          <img class="propertiescontentimage" src="img/eastwood/eastwood7.jpg">
+        </div>
+        <div class="column propertiescontentimagecolumn">
+          <img class="propertiescontentimage" src="img/eastwood/eastwood6.jpg">
+        </div>
       </div>
-      <div class="content">
-        <a class="header">Content Header</a>
-        <div class="meta">
-          <a>Date</a>
-          <a>Category</a>
-        </div>
-        <div class="description">
-          A description which may flow for several lines and give context to the content.
-        </div>
-        <div class="extra">
-          <div class="ui right floated primary button">
-            Primary
-            <i class="right chevron icon"></i>
+
+      <hr>
+      <!-- begin available units here -->
+      <h3>Available Units</h3>
+      <div class="ui relaxed items">
+        <div class="item">
+          <div class="ui small image">
+            <img src="img/eastwood/eastwood1.jpg">
           </div>
-          <div class="ui label">Limited</div>
+          <div class="content">
+            <a class="header">Studio</a>
+            <div class="description">
+              A description which may flow for several lines and give context to the content.
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="item">
-      <div class="ui small image">
-        <img src="assets/images/wireframe/image.png">
-      </div>
-      <div class="content">
-        <a class="header">Content Header</a>
-        <div class="meta">
-          <a>Date</a>
-          <a>Category</a>
+        <div class="item">
+          <div class="ui small image">
+            <img src="img/eastwood/eastwood1.jpg">
+          </div>
+          <div class="content">
+            <a class="header">One Bedroom</a>
+            <div class="description">
+              A description which may flow for several lines and give context to the content.
+            </div>
+          </div>
         </div>
-        <div class="description">
-          A description which may flow for several lines and give context to the content.
+        <div class="item">
+          <div class="ui small image">
+            <img src="img/eastwood/eastwood1.jpg">
+          </div>
+          <div class="content">
+            <a class="header">Two Bedrooms</a>
+            <div class="description">
+              A description which may flow for several lines and give context to the content.
+            </div>
+          </div>
         </div>
-        <div class="extra">
-          <div class="ui right floated primary button">
-            Primary
-            <i class="right chevron icon"></i>
+        <div class="disabled item">
+          <div class="ui small image">
+            <img src="img/eastwood/eastwood1.jpg">
+          </div>
+          <div class="content">
+            <a class="header">Three Bedrooms</a>
+            <div class="description">
+              A description which may flow for several lines and give context to the content.
+            </div>
+          </div>
+        </div>
+        <div class="disabled item">
+          <div class="ui small image">
+            <img src="img/eastwood/eastwood1.jpg">
+          </div>
+          <div class="content">
+            <a class="header">Four Bedrooms</a>
+            <div class="description">
+              A description which may flow for several lines and give context to the content.
+            </div>
           </div>
         </div>
       </div>
@@ -299,6 +321,7 @@
     .sidebar('toggle')
   ;
 </script>
+
 
 </body>
 </html>

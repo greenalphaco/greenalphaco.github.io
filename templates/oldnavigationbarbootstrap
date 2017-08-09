@@ -1,0 +1,19 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header" style="margin-right: 10px;">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span>MENU</span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-left">
+        <li class="pull-left hidden-xs"><a class="logo" href="index.html"><img class="navlogo" src="img/logodark.png"><img class="navlogo" src="img/logolight.png"></a></li>
+        <li class="{{navlinkoptionproperties}}"><a href="properties.html">PROPERTIES</a></li>
+        <li class="{{navlinkoptionlocations}}"><a href="locations.html">LOCATIONS</a></li>
+        <li class="{{navlinkoptionabout}}"><a href="about.html">ABOUT</a></li>
+        <li class="{{navlinkoptionapply}}"><a href="apply.html">APPLY</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

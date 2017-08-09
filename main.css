@@ -1,0 +1,149 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  overflow-x: hidden;
+  color: rgba(0,0,0,.85);
+  font-family: 'Karla', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Oswald', 'Karla', Helvetica, Arial, sans-serif;
+  font-size: 3.5em;
+}
+h2 {
+  font-family: 'Oswald', 'Karla', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+}
+h3 {
+  font-family: 'Oswald', 'Karla', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+}
+hr {
+  width: 100%;
+}
+
+.newgreen {
+  color: #6d874d;
+}
+
+
+/*index.html introduction start*/
+#intro {
+  height: 100%;
+  width: 100%;
+}
+#intro .ui.fluid.container {
+  height: 75vh;
+  width: 100%;
+}
+#intro .ui.fluid.container h1.bigtitle {
+  margin: auto;
+  margin-top: 3em;
+  position: relative;
+}
+#intro .ui.fluid.container h3.bigtitle {
+  margin: 1em auto;
+  position: relative;
+  font-weight: normal;
+  max-width: 400px;
+}
+#intro .bg {
+  background-image: url("img/landingpagebg.jpg");
+  height: 100%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 767px) {
+  #intro .ui.fluid.container {
+    margin: 0 !important;
+  }
+}
+/*index.html introduction end*/
+
+
+/*properties.html introduction start*/
+#properties {
+  height: 100%;
+  width: 100%;
+}
+#properties .ui.fluid.container.properties {
+  height: 30vh;
+  width: 100%;
+}
+#properties .ui.fluid.container h1.bigtitle {
+  margin: auto;
+  margin-top: 1.5em;
+  position: relative;
+  font-size: 3.5em;
+}
+#properties .ui.fluid.container h3.bigtitle {
+  margin: 1em auto;
+  position: relative;
+  font-size: 1.5em;
+  font-weight: normal;
+  max-width: 400px;
+}
+#properties .bg {
+  background-image: url("img/landingpagebg.jpg");
+  height: 100%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 767px) {
+  #properties .ui.fluid.container {
+    margin: 0 !important;
+  }
+}
+/*properties.html introduction end*/
+
+
+/*properties accordion begin*/
+#propertiescontent {
+  margin-top: 2em;
+  margin-bottom: 3%;
+}
+#propertiescontent .content  {
+  margin-left: 22px;
+}
+#propertiescontent .accordion a.accordionlink {
+  color: rgba(0,0,0,.4);
+}
+#propertiescontent .accordion a.accordionlink:hover {
+  color: rgba(0,0,0,.85);
+}
+#propertiescontent .accordion a.accordionlinkactive {
+  color: rgba(0,0,0,.85);
+  font-weight: 700;
+}
+/*properties accordion end*/
+
+
+#propertiescontent p.propertiescontentdescription {
+  margin-bottom: 2em;
+/*  max-width: 500px;*/
+  text-align: left;
+}
+#propertiescontent img.propertiescontentimage {
+  width: 100%;
+}
+
+/*hacked disable mode for items start*/
+.disabled {
+  opacity: 0.45 !important; 
+  cursor: not-allowed !important; 
+}
+.disabled a:hover {
+  color: rgba(0,0,0,.85) !important;
+  cursor: not-allowed !important;
+}
+/*hacked disable mode for items end*/
+
+
+
+
+
